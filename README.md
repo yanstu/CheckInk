@@ -15,6 +15,8 @@ CheckInk是一个用于检查和管理Windows系统中无效快捷方式的工�
 
 ## 界面截图
 
+![main](./screenshot/main.png)
+
 *使用CheckInk前，请先备份重要数据。*
 
 ## 如何使用
@@ -52,10 +54,6 @@ python build.py
 
 构建完成后，可执行文件将位于`dist`目录下。
 
-## 图标资源
-
-程序使用了多个图标资源，可以根据个人喜好自定义这些图标。详细信息请查看 [icon_info.md](icon_info.md) 文件。
-
 ## 技术实现
 
 - 使用Python和PyQt6构建GUI界面
@@ -63,15 +61,3 @@ python build.py
 - 解析.url文件内容以验证URL的有效性
 - 自定义窗口标题栏和控件样式
 - 使用PyInstaller将应用程序打包为单独的exe文件
-
-## 开源许可
-
-本项目采用MIT许可证开源。
-
-## 作者
-
-- 您的名字
-
----
-
-💻 欢迎贡献代码或提出改进建议！ 
